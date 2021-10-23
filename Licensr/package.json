@@ -1,0 +1,18 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ab_1902",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "ethereumjs-testrpc": "^6.0.3",
+    "express": "^4.17.1",
+    "ganache-cli": "^6.12.2",
+    "web3": "^1.3.5"
+  }
+}

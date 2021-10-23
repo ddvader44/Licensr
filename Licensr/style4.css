@@ -1,0 +1,82 @@
+body{
+    margin: 0%;
+    background-image: linear-gradient(to right,rgb(32, 29, 29), rgb(39, 50, 207) );
+}
+#section1{
+    padding: 0 2.5%;
+   
+}
+#section2{
+    padding: 0 2.5%;
+    margin:2.5% auto;
+    margin-bottom: 10%;
+}
+#section3{
+   
+    text-align: center;
+
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
+.nav-link{
+    font-size: 1.25em;
+    padding: 2%;
+    font-weight: 600;
+}
+.card{
+    width: 25em;
+   margin: 0 auto;
+   text-align: center;
+   background-image: linear-gradient(rgb(202, 196, 196), rgb(103, 109, 199) );
+  
+   border-radius: 15px;
+   border: 2px solid rgb(231, 227, 227);
+   padding: 1.5% 0;
+}
+.card:hover{
+    box-shadow: 5px 7.5px  black;
+}
+.col-form-label{
+    font-size: 1.25em;
+    font-style: normal;
+    text-align: left;
+}
+h2{
+font-size: 1.5em;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+.inputvalues{
+    border-radius: 15px;
+    font-size: 1.25em;
+}
+.btn{
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.labels{
+    font-weight:500;
+    font-size: 1.45em;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+@media only screen and (max-width:900px){
+    #section2{
+        padding: 0 2.5%;
+        text-align: center;
+        margin:10% auto;
+       margin-bottom: 30px;
+    }
+    .card{
+        width: 20em;
+       margin: 0 auto;
+       background-image: linear-gradient(rgb(202, 196, 196), rgb(103, 109, 199) );
+       box-shadow: 5px 7.5px  black;
+       border-radius: 15px;
+       border: 2px solid rgb(231, 227, 227);
+       padding:  0;
+    }
+}

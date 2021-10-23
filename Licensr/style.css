@@ -1,0 +1,141 @@
+#section1{
+    padding: 1.5% ;
+    background-color: rgb(63, 63, 243);
+}
+#section2{
+    padding: 1.5% ;
+    margin: 1.5% 0;
+    background-color: rgb(255, 255, 255);
+    
+}
+#section3{
+    margin: 1.5% 0;
+    padding: 1.5%;
+    background-color: rgb(63, 63, 243);
+}
+
+h1{
+    width: 50%;
+    font-weight: bold;
+    font-size: 5.5em;
+    color: black;     
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h2{
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 7.5%;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px #bbb6b6;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Kiwi Maru', serif;
+    padding: 2%;
+}
+p{
+    line-height: 1.5;
+    color: black;
+
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+.nav-link{
+    font-size: 1.25em;
+   padding: 2%;
+}
+.card{   
+  margin: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+   
+}   
+.card:hover{
+    box-shadow:10px 10px 10px #2c2c2c;
+}
+
+.introsection{
+    background-image: url(images/new-removebg-preview.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    padding:7% 1%;
+    animation-name: intro;
+    animation-duration: 4s;
+    opacity: 1;
+}
+@keyframes intro{
+    from{
+        opacity: 0;       
+    }
+    to{
+        opacity: 1;    
+    }
+}
+
+.image{
+   background-image: url(images/3-removebg-preview.jpg);
+   background-repeat: no-repeat;
+   background-position: left;
+}
+
+@media only screen and (max-width:900px) {
+    #section1{
+        padding: 0 ;
+        background-color: rgb(63, 63, 243);
+    }
+    #section2{
+        padding: 0;
+        margin: 10% 0;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    #section3{
+       text-align: center;
+        padding: 1.5%;
+        background-color: rgb(63, 63, 243);
+    }
+    h1{
+        width:50%;
+        font-weight: bold;
+        font-size:3.5rem;
+    }
+    h2{
+        font-size:2em;
+        text-align: center;
+        font-weight: bold;
+        color: black;
+    }
+    .introsection{
+        background-image: url(images/new.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size:cover;
+       
+    }
+    .image{
+        display: none;
+     }
+    .card{   
+        
+        align-items: center;
+         margin: 30px 0;
+          text-align: center;
+          cursor: pointer;
+          border-radius: 15px;
+         
+      }   
+      .card:hover{
+          box-shadow:10px 10px 10px #2c2c2c;
+      }
+   
+      
+ 
+}
